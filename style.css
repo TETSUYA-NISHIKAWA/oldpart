@@ -125,7 +125,7 @@ img {
 
 .members {
   padding: 128px 0;
-  background-image: url(../img/index/members-img.jpg);
+  background-image: url(https://github.com/TETSUYA-NISHIKAWA/part/blob/main/img/index/members-img.jpg?raw=true);
   background-size: cover;
   background-position: 50% 16%;
   background-attachment: fixed;
@@ -763,7 +763,7 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: url(../img/index/about-img.jpg);
+  background-image: url(https://github.com/TETSUYA-NISHIKAWA/part/blob/main/img/index/about-img.jpg?raw=true);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -979,7 +979,7 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: url(../img/index/lookbook-img.jpg);
+  background-image: url(https://github.com/TETSUYA-NISHIKAWA/part/blob/main/img/index/lookbook-img.jpg?raw=true);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
