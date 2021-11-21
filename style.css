@@ -985,7 +985,7 @@ img {
   background-position: top;
   position: absolute;
   top: 0;
-  width: 65%;
+  width: 55%;
   height: 100%;
   z-index: 1;
 }
@@ -993,7 +993,7 @@ img {
 .lookbook-catchcopy {
   position: absolute;
   top: 10%;
-  left: 73%;
+  left: 70%;
   z-index: 2;
   text-align: left;
 }
@@ -1329,7 +1329,7 @@ img {
     position: fixed;
     z-index: 9999;
     /*ボタンを最前面に*/
-    top: 5px;
+    top: 6.5px;
     right: 74px;
     cursor: pointer;
     width: 50px;
