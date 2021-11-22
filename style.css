@@ -1240,49 +1240,63 @@ img {
   body {
     font-size: 13px;
   }
+
   .pc-only {
     display: none;
   }
+
   .sp-only {
     display: block;
   }
+
   /* レイアウト */
   .header .container {
     padding: 16px 80px;
   }
+
   .container {
     padding: 0 80px;
   }
+
   .members {
     background-position: 50% -50%;
   }
+
   /* 見出し */
   .title {
     font-size: 1.999rem;
   }
+
   /* ヘッダー */
   #g-nav {
     display: inline;
   }
+
   .header-logo {
     width: 50px;
   }
+
   .gnav-list {
     display: none;
   }
+
   .menu-list {
     padding-right: 48px;
   }
+
   .menu-item a img {
     width: 24px;
   }
+
   .menu-item:nth-of-type(2) {
     display: none;
   }
+
   /* lookbook */
   .lookbook-catchcopy {
     left: 69%;
   }
+
   /*--- ハンバーガーメニュー ---*/
   #g-nav {
     /*position:fixed;にし、z-indexの数値を大きくして前面へ*/
@@ -1298,10 +1312,12 @@ img {
     /*動き*/
     transition: all 0.6s;
   }
+
   /*アクティブクラスがついたら位置を0に*/
   #g-nav.panelactive {
     right: 0;
   }
+
   /*ナビゲーションの縦スクロール*/
   #g-nav.panelactive #g-nav-list {
     /*ナビの数が増えた場合縦スクロール*/
@@ -1313,6 +1329,7 @@ img {
     overflow: auto;
     -webkit-overflow-scrolling: touch;
   }
+
   /*ナビゲーション*/
   #g-nav ul {
     /*ナビゲーション天地中央揃え*/
@@ -1322,11 +1339,13 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
   /*リストのレイアウト設定*/
   #g-nav li {
     list-style: none;
     text-align: center;
   }
+
   #g-nav li a {
     color: #333;
     text-decoration: none;
@@ -1336,6 +1355,7 @@ img {
     letter-spacing: 0.1em;
     font-weight: bold;
   }
+
   /*= ボタンのためのCSS =*/
   .openbtn {
     position: fixed;
@@ -1347,6 +1367,7 @@ img {
     width: 50px;
     height: 50px;
   }
+
   /*×に変化*/
   .openbtn span {
     display: inline-block;
@@ -1358,44 +1379,55 @@ img {
     background-color: #fff;
     width: 45%;
   }
+
   .openbtn span:nth-of-type(1) {
     top: 15px;
   }
+
   .openbtn span:nth-of-type(2) {
     top: 23px;
   }
+
   .openbtn span:nth-of-type(3) {
     top: 31px;
   }
+
   .openbtn.active span:nth-of-type(1) {
     top: 18px;
     left: 18px;
     transform: translateY(6px) rotate(-45deg);
     width: 30%;
   }
+
   .openbtn.active span:nth-of-type(2) {
     opacity: 0;
   }
+
   .openbtn.active span:nth-of-type(3) {
     top: 30px;
     left: 18px;
     transform: translateY(-6px) rotate(45deg);
     width: 30%;
   }
+
   /* about */
   .about-photo {
     width: 53%;
   }
+
   .about-catchcopy {
     right: 55%;
   }
+
   .about-phrase {
     font-size: 2.827rem;
   }
+
   /* product */
   .slick-prev, .slick-next {
     visibility: hidden;
   }
+
   /* members */
   .members .title {
     margin: 0;
@@ -1409,193 +1441,226 @@ img {
   body {
     font-size: 13px;
   }
+
   .pc-only {
     display: none;
   }
+
   .sp-only {
     display: block;
   }
+
   .openbtn {
     right: 4px;
   }
+
   /* 見出し */
   .title {
     margin-bottom: 16px;
     text-align: center;
   }
+
   .lead {
     font-size: 14px;
     line-height: 1.7;
     margin-bottom: 16px;
   }
+
   /* レイアウト */
   .section {
     padding-top: 80px;
   }
+
   .container {
     padding: 0 24px;
   }
+
   .header .container {
     padding: 16px;
   }
+
   .about {
     margin-top: 80px;
     padding-bottom: 0;
   }
+
   .product {
     padding-top: 80px;
   }
+
   .lookbook {
     padding-bottom: 0;
     margin-top: 80px;
   }
+
   .latestnews {
     padding-bottom: 80px;
   }
+
   .link {
     padding: 0;
   }
+
   .members {
     padding: 80px 0;
   }
+
   /* ボタン */
   .btnarrow4 span:first-of-type {
     font-size: 1rem;
     font-weight: 400;
   }
+
   /* 線の上を別の線が伸びるボタン */
   .btn-container {
     text-align: center;
     margin-right: 0;
   }
+
   .latestnews .btn-container, .members .btn-container {
     text-align: center;
   }
+
   .btntransform {
     margin: 20px 0 0 0;
   }
+
   .members .btntransform, .members .btntransform {
     margin: 0;
   }
+
   /*  ヘッダー */
   .menu-list {
     padding-right: 40px;
   }
+
   /*  メインビジュアル */
   .mv-title {
     font-size: 2.827rem;
   }
+
   .scrolldown1 {
     right: 32px;
   }
+
   /* about */
   .about .container {
     min-height: 600px;
   }
+
   .about-photo {
     width: 90%;
     max-height: 300px;
   }
+
   .about-catchcopy {
     top: 50%;
     left: 50%;
-    transform: translate( -50%);
+    transform: translate(-50%);
     width: 100%;
     text-align: center;
   }
+
   .about-title {
     font-size: 1.414rem;
   }
+
   /* New arrivals */
   .newarrivals-list {
     flex-wrap: wrap;
   }
+
   .newarrivals-item {
     width: 47%;
   }
+
   .newarrivals-item:not(:last-child) {
     margin-right: 0;
   }
+
   /* product */
+  .product-name span {
+    font-size: 0.707rem;
+  }
+
   /* lookbook */
   .lookbook .container {
     min-height: 450px;
   }
+
   .lookbook-photo {
     max-height: 300px;
     width: 90%;
   }
+
   .lookbook-catchcopy {
     top: 64%;
     left: 50%;
-    transform: translate( -50%);
+    transform: translate(-50%);
     width: 100%;
     text-align: center;
   }
+
   /* latestnews */
   .latestnews-info {
     margin-left: 15%;
   }
+
   /* 各種リンク */
   .link-item {
     width: 100%;
   }
+
   .link-item img {
     width: 100%;
     height: 80vw;
     object-fit: cover;
   }
+
   /* メンバーズ */
   .members .container {
     display: block;
     justify-content: center;
     text-align: center;
   }
+
   .members .title {
     margin: 0 0 20px 0;
   }
+
   .members p, .members a {
     margin-bottom: 20px;
   }
+
   .members .btntransform {
     margin-bottom: 0;
   }
+
   /* フッター */
   .footer {
     padding: 80px;
   }
+
   .footer-logo {
     margin: 0 auto;
     margin-bottom: 40px;
   }
+
   .footer-list {
     display: block;
     text-align: center;
   }
+
   .footer-item {
     padding-bottom: 40px;
   }
+
   .footer-item:not(:last-child) {
     margin: 0;
   }
+
   .footer-nav-container {
     display: block;
     margin-bottom: 80px;
-  }
-  /* 下層ページ */
-  .article {
-    padding: 50px 0;
-  }
-  .article-body h3 {
-    font-size: 16px;
-    padding-left: .8em;
-  }
-  .article-body h3:not(:first-child) {
-    margin-top: 30px;
-  }
-  .article-body p {
-    font-size: 14px;
-    line-height: 1.7;
-    margin-bottom: 20px;
   }
 }
