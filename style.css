@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +10,7 @@ html {
 }
 
 body {
-  font-family: 'Lato', sans-serif, serif, sans-serif, Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  font-family: 'Lato', "Arial", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Meiryo", sans-serif;
   font-size: 93.8%;
   color: #333333;
   background-color: #fff;
@@ -18,7 +19,7 @@ body {
 }
 
 body::before {
-  background-image: url(https://github.com/TETSUYA-NISHIKAWA/part/blob/main/img/index/members-img.jpg?raw=true);
+  background-image: url(../img/index/members-img.jpg);
   background-image: no-repeat;
   background-image: center;
 
@@ -102,7 +103,7 @@ img {
 
 .container {
   margin: 0 auto;
-  padding: 0 80px;
+  padding: 0 96px;
   text-align: left;
 }
 
@@ -110,7 +111,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 80px;
+  padding: 16px 64px;
   line-height: 1.7;
 }
 
@@ -457,6 +458,7 @@ img {
     opacity: 0;
     transform: translateY(100px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -474,6 +476,7 @@ img {
     opacity: 1;
     transform: translateY(0);
   }
+
   to {
     opacity: 1;
     transform: translateY(100px);
@@ -744,10 +747,12 @@ img {
     top: 0;
     opacity: 0;
   }
+
   30% {
     height: 30px;
     opacity: 1;
   }
+
   100% {
     height: 0;
     top: 50px;
@@ -776,7 +781,7 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: url(https://github.com/TETSUYA-NISHIKAWA/part/blob/main/img/index/about-img.jpg?raw=true);
+  background-image: url(../img/index/about-img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -811,7 +816,7 @@ img {
   letter-spacing: .05em;
 }
 
-.about-title span {
+.about-title .color {
   color: #749FAE;
 }
 
@@ -991,7 +996,7 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: url(https://github.com/TETSUYA-NISHIKAWA/part/blob/main/img/index/lookbook-img.jpg?raw=true);
+  background-image: url(../img/index/lookbook-img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -1142,7 +1147,7 @@ img {
   height: 5px;
   border-top: 1px solid #fff;
   border-right: 1px solid #fff;
-  transform: rotate( 45deg);
+  transform: rotate(45deg);
 }
 
 .link-btn:hover {
@@ -1178,7 +1183,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 40px;
+  margin-bottom: 48px;
 }
 
 .footer-logo {
@@ -1233,7 +1238,7 @@ img {
   display: block;
 }
 
-/*media Queries 767
+/*media Queries 1024
 ----------------------------------------------------*/
 
 @media screen and (max-width: 1024px) {
@@ -1555,7 +1560,7 @@ img {
 
   .about-catchcopy {
     top: 50%;
-    left: 50%;
+    left: 0%;
     transform: translate(-50%);
     width: 100%;
     text-align: center;
@@ -1592,7 +1597,7 @@ img {
 
   .lookbook-catchcopy {
     top: 64%;
-    left: 50%;
+    left: 0%;
     transform: translate(-50%);
     width: 100%;
     text-align: center;
