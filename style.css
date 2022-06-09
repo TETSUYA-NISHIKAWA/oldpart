@@ -19,7 +19,7 @@ body {
 }
 
 body::before {
-  background-image: url(https://github.com/TETSUYA-NISHIKAWA/partold/blob/main/img/index/members-img.jpg?raw=true);
+  background-image: url(https://github.com/TETSUYA-NISHIKAWA/oldpart/blob/main/img/index/members-img.jpg?raw=true);
   background-image: no-repeat;
   background-image: center;
 
@@ -785,7 +785,7 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: url(https://github.com/TETSUYA-NISHIKAWA/partold/blob/main/img/index/about-img.jpg?raw=true);
+  background-image: url(https://github.com/TETSUYA-NISHIKAWA/oldpart/blob/main/img/index/about-img.jpg?raw=true);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1000,7 +1000,7 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: url(https://github.com/TETSUYA-NISHIKAWA/partold/blob/main/img/index/lookbook-img.jpg?raw=true);
+  background-image: url(https://github.com/TETSUYA-NISHIKAWA/oldpart/blob/main/img/index/lookbook-img.jpg?raw=true);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
